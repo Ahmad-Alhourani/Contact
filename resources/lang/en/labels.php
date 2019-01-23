@@ -188,8 +188,31 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_CustomerAddress_end
+
+        //start_Status_start
+        'status' => [
+            'management' => 'Status Management',
+            'create' => 'Create Status',
+            'view' => 'View Status',
+            'edit' => 'Edit Status',
+
+            'table' => [
+                'id' => "Id",
+                'code' => "Code",
+                'description' => "Description",
+                'sort' => 'Sort',
+                'total' => 'Status total|Status total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Status_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
